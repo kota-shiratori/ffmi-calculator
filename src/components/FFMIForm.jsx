@@ -53,7 +53,7 @@ export default function FFMIForm() {
           />
         </label>
         <br />
-        <button type="submit">栄養計算</button>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-500 text-white rounded px-4 py-2">栄養計算</button>
       </form>
       {results && (
         <div>

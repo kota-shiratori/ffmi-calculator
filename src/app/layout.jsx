@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ja">
       {/* <body className={inter.className}>{children}</body> */}
-      <body className="bg-white h-screen flex justify-center flex-col overflow-hidden">{children}</body>
+      <body className="bg-white h-screen flex justify-center flex-col">{children}</body>
     </html>
   )
 }
